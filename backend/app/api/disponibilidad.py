@@ -1,5 +1,3 @@
-"""Disponibilidad, vista de red y requisición sugerida — todo lee de
-calc_cpma/calc_cpma_red, salvo la fórmula final de requisición."""
 from datetime import date
 
 from fastapi import APIRouter, Depends, HTTPException, Query

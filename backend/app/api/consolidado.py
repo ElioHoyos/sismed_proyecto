@@ -1,7 +1,3 @@
-"""Consolidado de Red: la vista que el doc arma a mano (DISPO_RED…ConCompra),
-cruzando ICI + cálculos (calc_cpma_red) + CENARES. A nivel de red, nunca por
-establecimiento. Lectura, edición inline de campos de compra, y export a Excel
-idéntico a su formato (con encabezados de grupo)."""
 from datetime import date
 
 from fastapi import APIRouter, Depends, HTTPException, Query
